@@ -356,7 +356,7 @@ export default class Dapp extends React.Component<Props, State> {
       (await this.provider.getCode(CollectionConfig.contractAddress!)) === "0x"
     ) {
       this.setError(
-        "Não encontramos o contrato da coleção! Por favor, verifique se você está conectado à rede correta e tente novamente."
+        "Não encontramos o contrato da coleção! Por favor, verifique se você está conectado à rede Polygon e tente novamente."
       );
 
       return;
