@@ -15,18 +15,18 @@ const CollectionConfig: CollectionConfigInterface = {
   hiddenMetadataUri: 'ipfs://bafybeiajcupar3sawf242livfgtnqgigfuwsl7dwg7brokn7hj5dnxjkme/1.json',
   maxSupply: 300,
   whitelistSale: {
-    price: 0.05,
+    price: 10,
     maxMintAmountPerTx: 1,
   },
   preSale: {
-    price: 0.1,
+    price: 10,
     maxMintAmountPerTx: 1,
   },
   publicSale: {
     price: 10,
     maxMintAmountPerTx: 1,
   },
-  contractAddress: "0x6292320da1d6F6D85F4D7c20aA97b5990E3b9b0c",
+  contractAddress: "0x8C382E08B01DE80Ef9d2F23a36624e3c4fEa96aB",
   marketplaceIdentifier: 'pepe-holmes-nft',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
